@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="canvasjs.css" />
+    <title>Canvas Js</title>
+  </head>
+
+  <body>
+    <div class="mainContainer">
+      <h1 class="heading">
+        <span id="r_c">B</span><span id="g_c">u</span><span id="b_c">b</span
+        ><span id="y_c">b</span>les App
+      </h1>
+      <div class="bubblesContainer">
+        <div id="item1">
+          <canvas
+            onclick="changeHandler('circle1','item1','c','ctx')"
+            id="circle1"
+            height="120"
+            width="136"
+          ></canvas
+          ><canvas id="arrow1" height="120" width="136"></canvas>
+        </div>
+        <div id="item2">
+          <canvas
+            onclick="changeHandler('circle2','item2','c2','ctx2')"
+            id="circle2"
+            height="120"
+            width="136"
+          ></canvas
+          ><canvas id="arrow2" height="120" width="136"></canvas>
+        </div>
+        <div id="item3">
+          <canvas
+            onclick="changeHandler('circle3','item3','c3','ctx3')"
+            id="circle3"
+            height="120"
+            width="136"
+          ></canvas
+          ><canvas id="arrow3" height="120" width="136"></canvas>
+        </div>
+        <div id="item4">
+          <canvas
+            onclick="changeHandler('circle4','item4','c4','ctx4')"
+            id="circle4"
+            height="120"
+            width="136"
+          ></canvas
+          ><canvas id="arrow4" height="120" width="136"></canvas>
+        </div>
+      </div>
+      <button id="rst" class="btn">Reset</button>
+    </div>
+  </body>
+
+  <!-- SCRIPT CODE -->
+  <script src="canvasjs.js"></script>
+</html>

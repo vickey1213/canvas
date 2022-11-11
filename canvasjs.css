@@ -1,0 +1,62 @@
+body {
+  background-color: rgb(247, 234, 211);
+}
+.mainContainer {
+  width: 50%;
+  margin: auto;
+  text-align: center;
+}
+
+.heading {
+  font-family: Courier;
+  text-decoration: underline double rgb(202, 141, 28);
+}
+#r_c {
+  color: red;
+}
+#g_c {
+  color: green;
+}
+#b_c {
+  color: blue;
+}
+#y_c {
+  color: rgb(208, 182, 11);
+}
+
+.bubblesContainer {
+  border: 1px solid wheat;
+  border-radius: 5px;
+  background-color: wheat;
+}
+
+.btn {
+  margin-top: 10px;
+  float: right;
+  padding: 10px 30px;
+  background-color: rgba(0, 255, 255, 0.372);
+  border: none;
+  border-radius: 5px;
+  font-size: 15px;
+  font-weight: bold;
+  font-family: Courier;
+}
+
+.btn:hover {
+  background-color: aqua;
+  cursor: pointer;
+  box-shadow: 2px 2px;
+}
+
+#item1 {
+  margin-top: 15px;
+}
+
+#item1,
+#item2,
+#item3,
+#item4 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
